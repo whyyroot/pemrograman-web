@@ -16,7 +16,10 @@ Nim : 312510359
 </table>
 <p>
   <li>
-    <!DOCTYPE html> itu digunakan untuk menyatakan dokumen menggunakan standar HTML5
+
+``
+<!DOCTYPE html> itu digunakan untuk menyatakan dokumen menggunakan standar HTML5
+``
   </li>
   <li>
     <head> ... </head> : Bagian yang berisi informasi meta (metadata) tentang dokumen, seperti pengaturan halaman atau judul, yang tidak ditampilkan langsung di area konten browser.
