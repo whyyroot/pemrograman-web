@@ -1,0 +1,37 @@
+body{
+    background-color: aqua  ;
+}
+#judul{
+    text-align: center;
+    margin-top: 100px;
+}
+legend{
+    text-align: center;
+}
+#wrraper{
+    margin: 0 auto;
+    width: 750px;
+}
+#konten{
+    width: 300px;
+    margin: 5px auto;
+}
+#konten ul li{
+    margin-top: 5px;
+}
+#ouput{
+    overflow: hidden;
+}
+#t-barang{
+    float: left;
+}
+#t-fungsi{
+    float:right;
+}
+#t-fungsi ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#

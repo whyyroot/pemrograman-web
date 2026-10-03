@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Mahasiswa</title>
+        <script src="latihan.js"> </script>
+        <link href="latihan.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1>DATA MAHASISWA<BR>UNIVERSITAS KOMPUTER INDONESIA</h1>
+                    <hr>
+            </div>
+            <div id="konten">
+                <form name="fform">
+                    <div id="input">
+                    <pre>
+                        Nim                 : <input type="text" name="nim">
+                        Nama Mahasiswa      : <input type="text" name="nama">
+                        Jenis Kelamin       : <select name="jk">
+                            <option value="Laki-laki">Laki-laki</option>
+                            <option value="Perempuan">Perempuan</option>
+                        </select>
+                        Agama               : <select name="ag">
+                            <option value="Islam">Islam</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Katolik">Katolik</option>
+                            <option value="Hindu">Hindu</option>
+                        </select>
+                        Status              : <input type="radio" name="st"> Nikah
+                        Jurusan di Unikom   : <select name="j">
+                            <option value="Tehnik informatika">Tehnik informatika</option>
+                            <option value="Sistem Informasi">Sistem informasi</option>
+                            <option value="Ilmu komputer">Ilmu komputer</option>
+                        </select>
+                        Komentar            : <textarea name="k" rows="3" cols="10"></textarea>
+                    </pre>
+                    <div id="button_i">
+                        <input type="button" value="kirim" onclick="proses()">
+                        <input type="reset" value="ulang">
+                    </div>
+                    </div>
+                    <div id="output">
+                        <hr>
+                        <pre>
+                        nim anda    : <input type="text" name="onim">
+                        Nama anda   : <input type="text" name="onama" >
+                        Jenis Kelamin   : <input type="text" name="ojk">
+                        Agama           : <input type="text" name="oag">
+                        Status          : <input type="text" name="ost">
+                        Jurusan         : <input type="text" name="oj">
+                        Komentar        : <textarea name="ok" rows="3" cols="10"></textarea>
+                        </pre>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

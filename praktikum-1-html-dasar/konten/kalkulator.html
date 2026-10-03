@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KALKULATOR WAHYU</title>
+        <script languange="javascript"  src="j1.js"></script>
+        <link rel="stylesheet" href="js1.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="judul">
+                <h1>KALKULATOR WAHYU<BR> MENGGUNAKAN JAVA SCRIPT</h1>
+            </div>
+            <div id="kalkulator">
+                <h1>SILAHKAN INPUT</h1><br>
+                <form name="form1">
+                    <div id="int">
+                        <p>Masukan nilai pertama : <input type="text" name="b1"></p><br>
+                        <p>masukan nilai kedua        : <input type="text" name="b2"></p>
+                    </div>
+                </form>
+                    <div id="pilih">
+                    <form name="form2">    
+                    <ul>
+                        <li><input type="radio" value="tambah" name="pilihan"> +</li>
+                        <li><input type="radio" value="kurang" name="pilihan"> -</li>
+                        <li><input type="radio" value="kali" name="pilihan"> *</li>
+                        <li><input type="radio" value="bagi" name="pilihan"> / </li> 
+                    </ul>
+                    </form>
+                    </div>
+                    <div id="butt">
+                        <input type="button" value="mulai" onclick="mulai()">
+                        <input type="reset" value="reset">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

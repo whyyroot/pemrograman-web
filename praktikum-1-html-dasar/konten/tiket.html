@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Percabangan</title>
+    <script src="latihan2.js"></script>
+    <link href="latihan2.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+            <form name="fform">
+                <table border="0" cellpadding="10">
+                    <tr>
+                        <th colspan="2" >Travel Wahyu Abadi</th>
+                    </tr>
+                    <tr>
+                        <td><pre>
+Nama            : <input type="text" name="nama">
+Tujuan          : <select name="tujuan">
+                                <option value="jakarta">Jakarta</option>
+                                <option value="solo">Solo</option>
+                                <option value="surabaya">Surabaya</option>
+                            </select>
+Kelas           : <select name="kelas">
+    <option value="esekutif">Esekutif</option>
+    <option value="bisnis">Bisnis</option>
+    <option value="ekonomi">Ekonomi</option>
+</select>
+Jumlah Tiket    : <input type="text" name="jtiket">
+Member          : <input type="checkbox" name="member">
+<h5>*gunakan member untuk dapat diskon</h5>
+                        </pre></td>
+                        <td><pre>
+Harga Tiket : <input type="text" name="oht">
+Sub Total   : <input type="text" name="ost">
+Diskon      : <input type="text" name="od">
+Total Bayar : <input type="text" name="otb">
+                        </pre></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div id="butt"><input type="button" value="Proses" onclick="proses()">
+                            <input type="reset" value="ulangi">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

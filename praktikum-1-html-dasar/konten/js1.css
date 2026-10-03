@@ -1,0 +1,50 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: burlywood;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 750px;
+}
+#judul{
+    text-align: center;
+    margin-top: 100px;
+}
+#kalkulator{
+    background-color: cornflowerblue;
+    width: 400px;
+    margin-top: 150px;
+    overflow: hidden;
+
+}
+#kalkulator h1{
+    text-align: center;
+    padding-top: 5px;
+}
+#int {
+    float: left;
+}
+#int input{
+    text-align: right;
+    
+}
+#butt{
+
+   text-align: center;
+    padding: 3px;
+    margin: 0 auto;
+    
+    
+}
+
+#pilih { 
+    padding: 5px;
+    margin-left: 350px;
+}
+#pilih ul{
+    list-style: none;
+}

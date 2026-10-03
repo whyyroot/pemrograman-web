@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+@media (max-width: 360px) {
+    #wrapper{
+        width: 360px;
+        margin: 0 auto;
+    }
+    #list-menu{
+        background-color:rgb(167, 160, 160);
+        width: 350px;
+        height: 20px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        
+    }
+    #list-menu h5{
+        font-size: 25px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+       
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrraper{
+    width: 750px;
+    margin: 0 auto;
+}
+#list-menu{
+    background-color:rgb(167, 160, 160);
+    width: 750px;
+    height: 50px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+}
+#list-menu h5{
+    font-size: 25px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+ 
+   
+}
+#list-menu ul{
+    list-style: none;
+    float: right;
+    
+    margin-top: 30px;
+}
+#list-menu ul li {
+    
+    display: inline;
+}
+#list-menu ul li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 5px;
+    
+    
+}
+#data{
+    background-image: url(img/bg-wahyu.jpg);
+    width: 750px;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    
+}
+#data h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 100px;
+    position: absolute;
+}
+#data p{
+    font-size: 15px;
+    margin-top: 150px;
+    position: absolute;
+}
+#footer{
+    margin-top: 15px;
+    text-align: center;
+    background-color: gray;
+    height: 26px;
+    
+}
+#footer p{
+    padding: 1px;
+}
+#konten{
+    margin-top: 15px;
+    width: 750px;
+    overflow: hidden;
+    
+    
+}
+#konten img{
+    width:  220px;
+    padding: 1px;
+    margin: auto;
+}
+.isi-konten{
+    background-color: bisque;
+    width:  225px;
+    height: 340px;
+    float: left;
+    margin-left:10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.isi-konten h3{
+    font-size: 20px;
+}
+.isi-konten a{
+    color: black;
+    text-decoration: none;
+}
