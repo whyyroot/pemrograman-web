@@ -14,3 +14,17 @@ Nim : 312510359
     </td>
   </tr>
 </table>
+<p>
+  <li>
+    <!DOCTYPE html> itu digunakan untuk menyatakan dokumen menggunakan standar HTML5
+  </li>
+  <li>
+    <head> ... </head> : Bagian yang berisi informasi meta (metadata) tentang dokumen, seperti pengaturan halaman atau judul, yang tidak ditampilkan langsung di area konten browser.
+  </li> 
+  <li>
+    <title>Praktikum HTML Dasar</title : Elemen di dalam <head> yang menentukan judul halaman web; judul ini akan muncul di tab browser.
+  </li>
+  <li>
+  <body> ... </body> : Bagian utama yang menampung seluruh konten visual halaman web yang akan dilihat pengguna (seperti teks, gambar, atau tombol). 
+  </li>
+</ol></P>
