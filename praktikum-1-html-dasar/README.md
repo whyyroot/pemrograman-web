@@ -293,3 +293,107 @@ saya menambahkan halaman 2 saya
 2. `` <a href="..."> ... </a> `` Tag <a> (anchor) berfungsi untuk membuat link atau tautan yang menghubungkan ke halaman lain, dengan atribut href sebagai penentu URL atau alamat tujuannya.
 3. `` <hr> `` Ini adalah tag pendukung yang berfungsi untuk menambahkan garis horizontal pada halaman web, yang berguna sebagai pemisah antar bagian konten.
 
+
+
+<h3>Menambahkan List</h3>
+kita tambahkan daftar keahlian dan daftar langkah belajar menggunakan unordered list dan ordered list.
+<table boder="0">
+  <tr>
+    <td valign="top"><h3>Code</h3>
+      
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Praktikum HTML Dasar</title>
+</head>
+
+<body>
+    <!-- judul utama -->
+    <h1>Belajar Dasar HTML</h1>
+    <!-- subjudul -->
+    <h2>Paragraf pada HTML</h2>
+    <p>
+        Kami sedang belajar <b>HTML dasar</b> pada mata kuliah Pemrograman Web.
+        Praktikum ini digunakan untuk mengenal tag-tag dasar HTML.
+    </p>
+    <p>
+        HTML digunakan untuk menyusun <strong>struktur dan konten</strong> halaman web.
+        Browser akan menampilkan hasil interpretasi dari dokumen HTML.
+    </p>
+    <p>
+        Latihan pemformatan lainnya: Kita bisa membuat teks <em>ditekankan</em>, atau memberikan <mark>penanda
+            kuning</mark> pada
+        kata penting. Terkadang kita butuh teks yang ukurannya <small>lebih kecil</small>. Kita juga bisa menandai teks
+        yang <del>dicoret atau salah</del> dan menggantinya dengan teks yang baru <ins>disisipkan</ins>.
+    </p>
+
+    <h3>Menambahkan Gambar</h3>
+    <img src="images/profil.jpg" width="200" alt="Foto profil mahasiswa" title="Foto Profil Mahasiswa">
+
+    <h2>Keahlian</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <h2>Urutan Belajar</h2>
+    <ol>
+        <li>Mempelajari struktur HTML</li>
+        <li>Mempelajari tag dan atribut</li>
+        <li>Membuat halaman HTML</li>
+        <li>Menguji halaman pada browser</li>
+    </ol>
+
+    <!-- navigasi halaman -->
+    <nav>
+        <a href="index.html">Dasar HTML</a>
+        <a href="halaman2.html">Halaman 2</a>
+        <a href="https://www.google.com">Website Eksternal</a>
+    </nav>
+    <hr>
+
+</body>
+
+</html>
+```
+ </td>
+    <td valign="top"><h3>Tampilan</h3>
+      <img src="https://github.com/irvanwahyudin01/Tugas-Pemrograman/blob/main/pertemuan%2012/img/per12.1.png" width="450" height="450">
+  </td>
+  </tr>
+</table>
+
+
+1. `` <ul> ... </ul>`` tag ``<ul>`` (Unordered List) digunakan untuk membuat daftar tanpa nomor.
+2. `` <ol> ... </ol> `` tag ``<ol>`` (Ordered List) digunakan untuk membuat daftar berurutan.
+3. `` <li> ... </li> `` tag ``<li>`` (List Item) berfungsi untuk mendefinisikan setiap poin atau baris item tunggal yang ada di dalam sebuah daftar.
+
+# Jawab Pertanyaan Berikut
+1. Apa fungsi deklarasi ``<!DOCTYPE html>`` pada dokumen HTML?
+   - Fungsi deklarasi ``<!DOCTYPE html>`` adalah untuk menyatakan bahwa dokumen tersebut menggunakan standar HTML5. Deklarasi ini ditulis pada bagian paling awal dokumen HTML dan digunakan untuk validasi elemen halaman web.
+2. Apa perbedaan antara tag, elemen, dan atribut pada HTML?
+   - Tag: Penanda awalan dan akhiran dari sebuah elemen HTML, dibuat dengan kurung siku ``(<...>)`` dan biasanya berpasangan (ada pembuka dan penutup, meskipun ada pengecualian).
+   - Elemen: Komponen yang menyusun dokumen HTML, secara sederhana dipahami sebagai kombinasi dari tag pembuka, isi, tag penutup, dan atribut jika diperlukan.
+   - Atribut: Memberikan informasi tambahan kepada sebuah elemen, dan biasanya ditulis pada tag pembuka.
+3. Apa perbedaan ``<p>`` dengan ``<br>``? Jelaskan penggunaannya.
+   - ``<p>`` adalah tag yang digunakan untuk membuat paragraf, yaitu untuk menampilkan teks atau artikel sebagai satu kesatuan blok teks.
+   - ``<br>`` adalah tag pendukung yang digunakan untuk berpindah baris (membuat baris baru) di dalam sebuah paragraf atau area teks lainnya, tanpa membuat paragraf baru. Tag ``<br>`` juga merupakan elemen yang tidak memiliki pasangan penutup.
+4. Apa fungsi atribut href pada tag ``<a>``?
+   - Fungsi atribut href pada tag ``<a>`` (anchor/hyperlink) adalah sebagai penentu URL atau alamat tujuan tautan tersebut.
+5. Apa perbedaan hyperlink ke halaman internal dengan hyperlink ke website eksternal?
+   - Hyperlink internal: Menghubungkan satu halaman web dengan halaman web lain yang masih berada di dalam situs web yang sama.
+   - Hyperlink eksternal: Menghubungkan halaman web ke situs web lain di luar domain saat ini.
+6. Apa fungsi atribut src dan alt pada tag ``<img>``?
+   - src: Berfungsi untuk menentukan URL atau path (lokasi) file gambar yang akan ditampilkan.
+   - alt: Berfungsi untuk memberikan deskripsi tentang gambar tersebut (teks alternatif yang muncul jika gambar gagal dimuat, dan penting untuk aksesibilitas).
+7. Apa perbedaan penggunaan ``<ul>`` dan ``<ol>``?
+   - ``<ul>`` (Unordered List): Digunakan untuk membuat daftar tanpa nomor (biasanya menggunakan simbol bullet).
+   - ``<ol>`` (Ordered List): Digunakan untuk membuat daftar yang berurutan, biasanya menggunakan angka atau huruf berurutan.
+8. Apa yang terjadi jika path gambar pada atribut src salah?
+   - Jika path gambar pada atribut src salah, maka browser tidak dapat menemukan gambar tersebut dan gambar tidak akan ditampilkan.
+9. Mengapa struktur heading h1 sampai h6 perlu digunakan secara terstruktur?
+   - Penggunaan terstruktur (berurutan dari level tertinggi ke terendah) penting untuk menunjukkan hierarki dan struktur dokumen, membedakan mana yang merupakan judul utama dan mana yang subjudul.
+10. Apa fungsi komentar <!-- ... --> dalam kode HTML?
+   -  Komentar merupakan bagian kode yang diabaikan oleh browser dan tidak ditampilkan pada halaman web. Fungsinya adalah untuk memberikan informasi tambahan atau penanda pada bagian kode bagi pengembang, atau untuk menonaktifkan kode sementara.
