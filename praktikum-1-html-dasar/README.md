@@ -24,7 +24,7 @@ Nim : 312510359
 ```
    </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/irvanwahyudin01/Tugas-Pemrograman/blob/main/pertemuan%2012/img/per12.1.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-1.png" width="450" height="450">
     </td>
   </tr>
 </table>
@@ -68,7 +68,7 @@ Membuat paragraf kita tuliskan di dalam elemen ``<body> .. </body>``
 ```
   </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/irvanwahyudin01/Tugas-Pemrograman/blob/main/pertemuan%2012/img/per12.1.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-2.png" width="450" height="450">
   </td>
   </tr>
 </table>
@@ -111,7 +111,7 @@ Membuat judul berarti diatas conten yang kita inginkan
 ```
   </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/irvanwahyudin01/Tugas-Pemrograman/blob/main/pertemuan%2012/img/per12.1.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-3.png" width="450" height="450">
   </td>
   </tr>
 </table>
@@ -144,19 +144,24 @@ kita coba format text seperti ``<strong>, <b>, <em>, <mark>, <small>, <del>, dan
     <!-- subjudul -->
     <h2>Paragraf pada HTML</h2>
     <p>
-        Kami sedang belajar <b>HTML dasar</b> pada mata kuliah Pemrograman Web.
-        Praktikum ini digunakan untuk mengenal tag-tag dasar HTML.
+        Kami sedang belajar <b>HTML dasar</b> pada mata
+ kuliah Pemrograman Web. Praktikum ini digunakan untuk
+mengenal tag-tag dasar HTML.
     </p>
     <p>
-        HTML digunakan untuk menyusun <strong>struktur dan konten</strong> halaman web.
-        Browser akan menampilkan hasil interpretasi dari dokumen HTML.
+        HTML digunakan untuk menyusun <strong>struktur
+        dan konten</strong> halaman web. Browser akan
+        menampilkan hasil interpretasi dari dokumen HTML.
     </p>
     <p>
-        Latihan pemformatan lainnya: Kita bisa membuat teks <em>ditekankan</em>,
-        atau memberikan <mark>penanda kuning</mark> pada kata penting. Terkadang
-        kita butuh teks yang ukurannya <small>lebih kecil</small>. Kita juga bisa
-        menandai teks yang <del>dicoret atau salah</del> dan menggantinya dengan
-        teks yang baru <ins>disisipkan</ins>.
+        Latihan pemformatan lainnya: Kita bisa membuat
+        teks <em>ditekankan</em>, atau memberikan
+        <mark>penanda kuning</mark> pada kata penting.
+        Terkadang kita butuh teks yang ukurannya
+        <small>lebih kecil</small>. Kita juga bisa
+        menandai teks yang <del>dicoret atau salah</del>
+        dan menggantinya dengan teks yang baru
+        <ins>disisipkan</ins>.
     </p>
 </body>
 
@@ -164,7 +169,7 @@ kita coba format text seperti ``<strong>, <b>, <em>, <mark>, <small>, <del>, dan
 ```
   </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/irvanwahyudin01/Tugas-Pemrograman/blob/main/pertemuan%2012/img/per12.1.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-5.png" width="450" height="450">
   </td>
   </tr>
 </table>
@@ -179,7 +184,7 @@ kita coba format text seperti ``<strong>, <b>, <em>, <mark>, <small>, <del>, dan
 
 <h3>Menyisipkan dan Mengatur Ukuran Gambar</h3>
 Kita buat folder images untuk menyimpan gambarnya.
-<img src="https://github.com/irvanwahyudin01/Tugas-Pemrograman/blob/main/pertemuan%2014/img/per14.2.png" width="250" height="150">
+<img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-4.png" width="250" height="150">
 <table boder="0">
   <tr>
     <td valign="top"><h3>Code</h3>
@@ -198,28 +203,35 @@ Kita buat folder images untuk menyimpan gambarnya.
     <!-- subjudul -->
     <h2>Paragraf pada HTML</h2>
     <p>
-        Kami sedang belajar <b>HTML dasar</b> pada mata kuliah Pemrograman Web.
-        Praktikum ini digunakan untuk mengenal tag-tag dasar HTML.
+        Kami sedang belajar <b>HTML dasar</b> pada mata
+ kuliah Pemrograman Web. Praktikum ini digunakan untuk
+mengenal tag-tag dasar HTML.
     </p>
     <p>
-        HTML digunakan untuk menyusun <strong>struktur dan konten</strong> halaman web.
-        Browser akan menampilkan hasil interpretasi dari dokumen HTML.
+        HTML digunakan untuk menyusun <strong>struktur
+        dan konten</strong> halaman web. Browser akan
+        menampilkan hasil interpretasi dari dokumen HTML.
     </p>
     <p>
-        Latihan pemformatan lainnya: Kita bisa membuat teks <em>ditekankan</em>, atau memberikan <mark>penanda
-            kuning</mark> pada
-        kata penting. Terkadang kita butuh teks yang ukurannya <small>lebih kecil</small>. Kita juga bisa menandai teks
-        yang <del>dicoret atau salah</del> dan menggantinya dengan teks yang baru <ins>disisipkan</ins>.
+        Latihan pemformatan lainnya: Kita bisa membuat
+        teks <em>ditekankan</em>, atau memberikan
+        <mark>penanda kuning</mark> pada kata penting.
+        Terkadang kita butuh teks yang ukurannya
+        <small>lebih kecil</small>. Kita juga bisa
+        menandai teks yang <del>dicoret atau salah</del>
+        dan menggantinya dengan teks yang baru
+        <ins>disisipkan</ins>.
     </p>
     <h3>Menambahkan Gambar</h3>
-    <img src="images/profil.jpg" width="200" alt="Foto profil mahasiswa" title="Foto Profil Mahasiswa">
+    <img src="images/profil.jpg" width="200"
+    alt="Foto profil mahasiswa" title="Foto Profil Mahasiswa">
 </body>
 
 </html>
 ```
  </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/irvanwahyudin01/Tugas-Pemrograman/blob/main/pertemuan%2012/img/per12.1.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-6.png" width="450" height="450">
   </td>
   </tr>
 </table>
@@ -253,24 +265,30 @@ saya menambahkan halaman 2 saya
     <!-- subjudul -->
     <h2>Paragraf pada HTML</h2>
     <p>
-        Kami sedang belajar <b>HTML dasar</b> pada mata kuliah Pemrograman Web.
-        Praktikum ini digunakan untuk mengenal tag-tag dasar HTML.
+        Kami sedang belajar <b>HTML dasar</b> pada mata
+ kuliah Pemrograman Web. Praktikum ini digunakan untuk
+mengenal tag-tag dasar HTML.
     </p>
     <p>
-        HTML digunakan untuk menyusun <strong>struktur dan konten</strong> halaman web.
-        Browser akan menampilkan hasil interpretasi dari dokumen HTML.
+        HTML digunakan untuk menyusun <strong>struktur
+        dan konten</strong> halaman web. Browser akan
+        menampilkan hasil interpretasi dari dokumen HTML.
     </p>
     <p>
-        Latihan pemformatan lainnya: Kita bisa membuat teks <em>ditekankan</em>, atau memberikan <mark>penanda
-            kuning</mark> pada
-        kata penting. Terkadang kita butuh teks yang ukurannya <small>lebih kecil</small>. Kita juga bisa menandai teks
-        yang <del>dicoret atau salah</del> dan menggantinya dengan teks yang baru <ins>disisipkan</ins>.
+        Latihan pemformatan lainnya: Kita bisa membuat
+        teks <em>ditekankan</em>, atau memberikan
+        <mark>penanda kuning</mark> pada kata penting.
+        Terkadang kita butuh teks yang ukurannya
+        <small>lebih kecil</small>. Kita juga bisa
+        menandai teks yang <del>dicoret atau salah</del>
+        dan menggantinya dengan teks yang baru
+        <ins>disisipkan</ins>.
     </p>
-
     <h3>Menambahkan Gambar</h3>
-    <img src="images/profil.jpg" width="200" alt="Foto profil mahasiswa" title="Foto Profil Mahasiswa">
-
+    <img src="images/profil.jpg" width="200"
+    alt="Foto profil mahasiswa" title="Foto Profil Mahasiswa">
     <!-- navigasi halaman -->
+
     <nav>
         <a href="index.html">Dasar HTML</a>
         <a href="halaman2.html">Halaman 2</a>
@@ -283,7 +301,9 @@ saya menambahkan halaman 2 saya
 ```
  </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/irvanwahyudin01/Tugas-Pemrograman/blob/main/pertemuan%2012/img/per12.1.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-7.png" width="450" height="450">
+      halaman ke 2 saya :
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-9.png" width="450" height="450">
   </td>
   </tr>
 </table>
@@ -315,22 +335,28 @@ kita tambahkan daftar keahlian dan daftar langkah belajar menggunakan unordered 
     <!-- subjudul -->
     <h2>Paragraf pada HTML</h2>
     <p>
-        Kami sedang belajar <b>HTML dasar</b> pada mata kuliah Pemrograman Web.
-        Praktikum ini digunakan untuk mengenal tag-tag dasar HTML.
+        Kami sedang belajar <b>HTML dasar</b> pada mata
+ kuliah Pemrograman Web. Praktikum ini digunakan untuk
+mengenal tag-tag dasar HTML.
     </p>
     <p>
-        HTML digunakan untuk menyusun <strong>struktur dan konten</strong> halaman web.
-        Browser akan menampilkan hasil interpretasi dari dokumen HTML.
+        HTML digunakan untuk menyusun <strong>struktur
+        dan konten</strong> halaman web. Browser akan
+        menampilkan hasil interpretasi dari dokumen HTML.
     </p>
     <p>
-        Latihan pemformatan lainnya: Kita bisa membuat teks <em>ditekankan</em>, atau memberikan <mark>penanda
-            kuning</mark> pada
-        kata penting. Terkadang kita butuh teks yang ukurannya <small>lebih kecil</small>. Kita juga bisa menandai teks
-        yang <del>dicoret atau salah</del> dan menggantinya dengan teks yang baru <ins>disisipkan</ins>.
+        Latihan pemformatan lainnya: Kita bisa membuat
+        teks <em>ditekankan</em>, atau memberikan
+        <mark>penanda kuning</mark> pada kata penting.
+        Terkadang kita butuh teks yang ukurannya
+        <small>lebih kecil</small>. Kita juga bisa
+        menandai teks yang <del>dicoret atau salah</del>
+        dan menggantinya dengan teks yang baru
+        <ins>disisipkan</ins>.
     </p>
-
     <h3>Menambahkan Gambar</h3>
-    <img src="images/profil.jpg" width="200" alt="Foto profil mahasiswa" title="Foto Profil Mahasiswa">
+    <img src="images/profil.jpg" width="200"
+    alt="Foto profil mahasiswa" title="Foto Profil Mahasiswa">
 
     <h2>Keahlian</h2>
     <ul>
@@ -360,7 +386,7 @@ kita tambahkan daftar keahlian dan daftar langkah belajar menggunakan unordered 
 ```
  </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/irvanwahyudin01/Tugas-Pemrograman/blob/main/pertemuan%2012/img/per12.1.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-8.png" width="450" height="450">
   </td>
   </tr>
 </table>
@@ -395,5 +421,6 @@ kita tambahkan daftar keahlian dan daftar langkah belajar menggunakan unordered 
    - Jika path gambar pada atribut src salah, maka browser tidak dapat menemukan gambar tersebut dan gambar tidak akan ditampilkan.
 9. Mengapa struktur heading h1 sampai h6 perlu digunakan secara terstruktur?
    - Penggunaan terstruktur (berurutan dari level tertinggi ke terendah) penting untuk menunjukkan hierarki dan struktur dokumen, membedakan mana yang merupakan judul utama dan mana yang subjudul.
-10. Apa fungsi komentar <!-- ... --> dalam kode HTML?
-   -  Komentar merupakan bagian kode yang diabaikan oleh browser dan tidak ditampilkan pada halaman web. Fungsinya adalah untuk memberikan informasi tambahan atau penanda pada bagian kode bagi pengembang, atau untuk menonaktifkan kode sementara.
+10. Apa fungsi komentar ``<!-- ... -->`` dalam kode HTML?
+    - Komentar merupakan bagian kode yang diabaikan oleh browser dan tidak ditampilkan pada halaman web. Fungsinya adalah untuk memberikan informasi tambahan atau penanda pada bagian kode bagi pengembang, atau untuk menonaktifkan kode sementara.
+
