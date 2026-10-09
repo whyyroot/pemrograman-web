@@ -4,7 +4,9 @@ Nama : Irvan Wahyudin <br>
 Nim : 312510359
 <br><br>
 
-dan berikut adalah [jawaban soal-soal](#Jawab-Pertanyaan-Berikut) dari modul.
+
+dan berikut adalah [jawaban soal-soal](#Jawab-Pertanyaan-Berikut) dari modul.<br>
+Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum-1-html-dasar/index.html"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a>  
 <h3>Struktur Dasar HTML</h3>
 <table boder="0">
   <tr>
