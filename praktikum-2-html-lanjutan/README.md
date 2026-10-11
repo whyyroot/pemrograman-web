@@ -1,0 +1,481 @@
+# PRAKTIKUM 1 HTML DASAR
+<br>
+Nama : Irvan Wahyudin <br>
+Nim : 312510359
+<br><br>
+
+
+dan berikut adalah [jawaban soal-soal](#Jawab-Pertanyaan-Berikut) dari modul.<br>
+Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum-1-html-dasar/index.html"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a>  
+<h3>Membuat Tabel Mahasiswa</h3>
+<table boder="0">
+  <tr>
+    <td valign="top"><h3>Code</h3>
+
+```      
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Lanjutan</title>
+</head>
+
+<body>
+    <h1>Data Mahasiswa</h1>
+    <table border="1">
+        <tr>
+            <th>NIM</th>
+            <th>Nama</th>
+            <th>Program Studi</th>
+        </tr>
+        <tr>
+            <td>31241001</td>
+            <td>Andi</td>
+            <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>31241002</td>
+            <td>Budi</td>
+            <td>Teknik Informatika</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+
+```
+   </td>
+    <td valign="top"><h3>Tampilan</h3>
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-1.png" width="450" height="450">
+    </td>
+  </tr>
+</table>
+
+1. `` <table border="1"> ... </table> ``Ini adalah tag utama untuk membuat struktur tabel. Atribut `border="1"` digunakan untuk menampilkan garis batas (bingkai) pada tabel dan sel-selnya agar terlihat lebih jelas.
+2. `` <tr> ... </tr> ``: Tag ini berfungsi untuk membuat sebuah baris mendatar di dalam tabel.
+3. `` <th> ... </th> ``: Tag ini digunakan untuk membuat sel judul kolom (header).
+4. `` <td> ... </td> ``: Tag ini digunakan untuk membuat sel data biasa yang berisi informasi tabel.
+
+
+<h3>Tabel dengan thead, tbody, dan tfoot</h3>
+<table boder="0">
+  <tr>
+    <td valign="top"><h3>Code</h3>
+      
+  ```
+<table border="1">
+        <caption>Nilai Praktikum</caption>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Nilai</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Andi</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Budi</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>why</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>andi</td>
+                <td>95</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Rata-rata</td>
+                <td>87.5</td>
+            </tr>
+        </tfoot>
+    </table>
+```
+  </td>
+    <td valign="top"><h3>Tampilan</h3>
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-2.png" width="450" height="450">
+  </td>
+  </tr>
+</table>
+
+1. `` <caption> ``: Digunakan untuk memberikan teks judul pada tabel.
+2. ``<thead>, <tbody>, dan <tfoot>``: Ketiga tag ini berfungsi untuk mengelompokkan baris-baris tabel (<tr>) menjadi tiga bagian logis:
+3. - ``<thead>``: (Table Head): Bagian kepala tabel. Digunakan khusus untuk membungkus baris yang berisi judul-judul kolom (<th>).
+   - ``<tbody>`` (Table Body): Bagian tubuh atau isi utama tabel. Di sinilah semua baris data inti (``<td>``) diletakkan.
+   - ``<tfoot>`` (Table Foot): Bagian kaki tabel. Biasanya digunakan untuk meletakkan baris informasi tambahan di akhir tabel, seperti total, jumlah, atau rata-rata.
+4. ``colspan="2"``: Fungsinya adalah untuk melakukan merge atau menggabungkan dua kolom menjadi satu sel yang lebar.
+
+
+
+<h3>Membuat Form Registrasi Mahasiswa</h3>
+<table boder="0">
+  <tr>
+    <td valign="top"><h3>Code</h3>
+
+  ```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Lanjutan</title>
+</head>
+
+<body>
+    <h1>Form Registrasi Mahasiswa</h1>
+    <form>
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="tanggal">Tanggal Lahir</label><br>
+        <input type="date" id="tanggal" name="tanggal"><br><br>
+        <button type="submit">Daftar</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
+```
+  </td>
+    <td valign="top"><h3>Tampilan</h3>
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-3.png" width="450" height="450">
+  </td>
+  </tr>
+</table>
+
+1. `` <form> ... </form> `` dan ``<!-- subjudul -->``: Ini adalah tag utama (wadah) untuk membuat sebuah formulir.
+2. `` <label for="..."> ``: Tag ini berfungsi untuk membuat label atau keterangan teks bagi sebuah kolom input.
+3. - ``type="text"``: Membuat kolom input teks biasa satu baris (untuk Nama Lengkap).
+   - ``type="email"``: Membuat kolom input khusus email. Browser modern biasanya akan memberikan peringatan otomatis jika format email yang diketikkan salah (tidak ada tanda '@').
+   - ``type="password"``: Membuat kolom input kata sandi. Teks yang diketikkan pengguna akan disembunyikan dan diubah menjadi titik-titik atau bintang agar aman dari pandangan orang lain.
+   - ``type="date"``: Membuat kolom input tanggal.
+4. Atribut ``id`` dan ``name`` pada ``<input>``:
+   - ``id``: Sebagai identitas unik elemen tersebut (digunakan untuk dipasangkan dengan label, atau untuk styling CSS dan manipulasi JavaScript).
+   - ``name``: Nama variabel atau "kunci" data yang akan dikirimkan ke server ketika formulir disubmit (misalnya dikirim ke database).
+5. ``<button type="..."> ... </button>``: Tag untuk membuat tombol yang bisa diklik.
+   - ``type="submit"``: Tombol ini berfungsi untuk mengirimkan seluruh data yang telah diisi di dalam form tersebut untuk diproses (biasanya ke server).
+   - ``type="reset"``: Tombol ini berfungsi untuk mengosongkan kembali atau mereset seluruh kolom input di dalam form tersebut ke keadaan semula/kosong.
+ 
+
+<h3>Radio Button dan Checkboxt</h3>
+
+kita lanjutkan di dalam ``<form> ... </form>``
+<table boder="0">
+  <tr>
+    <td valign="top"><h3>Code</h3>
+
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Lanjutan</title>
+</head>
+
+<body>
+    <h1>Form Registrasi Mahasiswa</h1>
+    <form>
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="tanggal">Tanggal Lahir</label><br>
+        <input type="date" id="tanggal" name="tanggal"><br><br>
+
+        <h2>Jenis Kelamin</h2>
+        <input type="radio" id="laki" name="jk" value="L">
+        <label for="laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jk" value="P">
+        <label for="perempuan">Perempuan</label>
+        <h2>Keahlian</h2>
+        <input type="checkbox" id="html" name="skill" value="HTML">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="skill" value="CSS">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="js" name="skill" value="JavaScript">
+        <label for="js">JavaScript</label>
+        <button type="submit">Daftar</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
+```
+  </td>
+    <td valign="top"><h3>Tampilan</h3>
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-5.png" width="450" height="450">
+  </td>
+  </tr>
+</table>
+
+1. ``<input type="radio">``: Digunakan ketika pengguna hanya diizinkan memilih satu opsi dari beberapa pilihan yang ada (pilihan tunggal). Penggunaan name yang persis sama inilah yang membuat keduanya menjadi satu kelompok. Jika Anda mengklik "Laki-laki", maka pilihan pada "Perempuan" akan otomatis terhapus/berpindah.
+2. ``<input type="checkbox">``: Digunakan ketika pengguna diizinkan memilih lebih dari satu opsi sekaligus, atau bahkan tidak memilih sama sekali (pilihan ganda).
+3. Atribut ``value="..."``: Baik pada radio maupun checkbox, atribut value berisi data sebenarnya yang akan dikirimkan ke server/database ketika tombol "Submit" ditekan.
+
+
+
+<h3>Select dan Textarea</h3>
+Kita buat folder images untuk menyimpan gambarnya.
+<img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-4.png" width="250" height="150">
+<table boder="0">
+  <tr>
+    <td valign="top"><h3>Code</h3>
+
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Lanjutan</title>
+</head>
+
+<body>
+    <h1>Form Registrasi Mahasiswa</h1>
+    <form>
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="tanggal">Tanggal Lahir</label><br>
+        <input type="date" id="tanggal" name="tanggal"><br><br>
+
+        <h2>Jenis Kelamin</h2>
+        <input type="radio" id="laki" name="jk" value="L">
+        <label for="laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jk" value="P">
+        <label for="perempuan">Perempuan</label>
+        <h2>Keahlian</h2>
+        <input type="checkbox" id="html" name="skill" value="HTML">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="skill" value="CSS">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="js" name="skill" value="JavaScript">
+        <label for="js">JavaScript</label>
+
+        <label for="prodi">Program Studi</label>
+        <select id="prodi" name="prodi">
+            <option value="">-- Pilih Prodi --</option>
+            <option value="ti">Teknik Informatika</option>
+            <option value="si">Sistem Informasi</option>
+        </select>
+        <br><br>
+        <label for="alamat">Alamat</label><br>
+        <textarea id="alamat" name="alamat" rows="5" cols="40"></textarea>
+        <button type="submit">Daftar</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
+```
+ </td>
+    <td valign="top"><h3>Tampilan</h3>
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-6.png" width="450" height="450">
+  </td>
+  </tr>
+</table>
+
+
+1. ``<select>`` Tag ini digunakan untuk membuat sebuah kotak menu pilihan (dropdown list).
+2. `` <option> `` Tag ini diletakkan di dalam ``<select>`` dan berfungsi untuk mendefinisikan item-item pilihan yang tersedia.
+3. ``<textarea>`` Berbeda dengan ``<input type="text">`` yang hanya mengizinkan pengetikan dalam satu baris pendek, tag ``<textarea>`` digunakan untuk menampung teks yang panjang dan terdiri dari banyak baris, seperti alamat lengkap, komentar, pesan, atau deskripsi
+4. Atribut ``rows="5"`` Menentukan tinggi kotak teks yang terlihat di layar (dalam hal ini, tingginya setara dengan 5 baris teks).
+5. Atribut ``cols="40"`` Menentukan lebar kotak teks yang terlihat di layar (dalam hal ini, lebarnya setara dengan 40 karakter huruf).
+
+
+
+<h3>Validasi Form Dasar</h3>
+<table boder="0">
+  <tr>
+    <td valign="top"><h3>Code</h3>
+
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Lanjutan</title>
+</head>
+
+<body>
+    <h1>Form Registrasi Mahasiswa</h1>
+    <form>
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="tanggal">Tanggal Lahir</label><br>
+        <input type="date" id="tanggal" name="tanggal"><br><br>
+
+        <h2>Jenis Kelamin</h2>
+        <input type="radio" id="laki" name="jk" value="L">
+        <label for="laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jk" value="P">
+        <label for="perempuan">Perempuan</label>
+        <h2>Keahlian</h2>
+        <input type="checkbox" id="html" name="skill" value="HTML">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="skill" value="CSS">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="js" name="skill" value="JavaScript">
+        <label for="js">JavaScript</label>
+
+        <label for="prodi">Program Studi</label>
+        <select id="prodi" name="prodi">
+            <option value="">-- Pilih Prodi --</option>
+            <option value="ti">Teknik Informatika</option>
+            <option value="si">Sistem Informasi</option>
+        </select>
+        <br><br>
+        <label for="alamat">Alamat</label><br>
+        <textarea id="alamat" name="alamat" rows="5" cols="40"></textarea>
+        <button type="submit">Daftar</button>
+        <button type="reset">Reset</button>
+    </form>     
+</body>
+
+</html>
+```
+ </td>
+    <td valign="top"><h3>Tampilan</h3>
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-7.png" width="450" height="450">
+      halaman ke 2 saya :
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-9.png" width="450" height="450">
+  </td>
+  </tr>
+</table>
+
+
+1. `` <label for="alamat">Alamat</label>`` Membuat teks keterangan "Alamat".
+2. `` <textarea id="alamat" name="alamat" rows="5" cols="40"></textarea> `` Membuat kotak isian teks yang luas dan mendukung banyak baris (multi-baris) untuk mengetikkan alamat lengkap.
+
+
+
+<h3>Menambahkan List</h3>
+kita tambahkan daftar keahlian dan daftar langkah belajar menggunakan unordered list dan ordered list.
+<table boder="0">
+  <tr>
+    <td valign="top"><h3>Code</h3>
+      
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Praktikum HTML Dasar</title>
+</head>
+
+<body>
+    <!-- judul utama -->
+    <h1>Belajar Dasar HTML</h1>
+    <!-- subjudul -->
+    <h2>Paragraf pada HTML</h2>
+    <p>
+        Kami sedang belajar <b>HTML dasar</b> pada mata
+ kuliah Pemrograman Web. Praktikum ini digunakan untuk
+mengenal tag-tag dasar HTML.
+    </p>
+    <p>
+        HTML digunakan untuk menyusun <strong>struktur
+        dan konten</strong> halaman web. Browser akan
+        menampilkan hasil interpretasi dari dokumen HTML.
+    </p>
+    <p>
+        Latihan pemformatan lainnya: Kita bisa membuat
+        teks <em>ditekankan</em>, atau memberikan
+        <mark>penanda kuning</mark> pada kata penting.
+        Terkadang kita butuh teks yang ukurannya
+        <small>lebih kecil</small>. Kita juga bisa
+        menandai teks yang <del>dicoret atau salah</del>
+        dan menggantinya dengan teks yang baru
+        <ins>disisipkan</ins>.
+    </p>
+    <h3>Menambahkan Gambar</h3>
+    <img src="images/profil.jpg" width="200"
+    alt="Foto profil mahasiswa" title="Foto Profil Mahasiswa">
+
+    <h2>Keahlian</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <h2>Urutan Belajar</h2>
+    <ol>
+        <li>Mempelajari struktur HTML</li>
+        <li>Mempelajari tag dan atribut</li>
+        <li>Membuat halaman HTML</li>
+        <li>Menguji halaman pada browser</li>
+    </ol>
+
+    <!-- navigasi halaman -->
+    <nav>
+        <a href="index.html">Dasar HTML</a>
+        <a href="halaman2.html">Halaman 2</a>
+        <a href="https://www.google.com">Website Eksternal</a>
+    </nav>
+    <hr>
+
+</body>
+
+</html>
+```
+ </td>
+    <td valign="top"><h3>Tampilan</h3>
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-8.png" width="450" height="450">
+  </td>
+  </tr>
+</table>
+
+
+1. `` <ul> ... </ul>`` tag ``<ul>`` (Unordered List) digunakan untuk membuat daftar tanpa nomor.
+2. `` <ol> ... </ol> `` tag ``<ol>`` (Ordered List) digunakan untuk membuat daftar berurutan.
+3. `` <li> ... </li> `` tag ``<li>`` (List Item) berfungsi untuk mendefinisikan setiap poin atau baris item tunggal yang ada di dalam sebuah daftar.
+
+# Jawab Pertanyaan Berikut
+1. Apa fungsi deklarasi ``<!DOCTYPE html>`` pada dokumen HTML?
+   - Fungsi deklarasi ``<!DOCTYPE html>`` adalah untuk menyatakan bahwa dokumen tersebut menggunakan standar HTML5. Deklarasi ini ditulis pada bagian paling awal dokumen HTML dan digunakan untuk validasi elemen halaman web.
+2. Apa perbedaan antara tag, elemen, dan atribut pada HTML?
+   - Tag: Penanda awalan dan akhiran dari sebuah elemen HTML, dibuat dengan kurung siku ``(<...>)`` dan biasanya berpasangan (ada pembuka dan penutup, meskipun ada pengecualian).
+   - Elemen: Komponen yang menyusun dokumen HTML, secara sederhana dipahami sebagai kombinasi dari tag pembuka, isi, tag penutup, dan atribut jika diperlukan.
+   - Atribut: Memberikan informasi tambahan kepada sebuah elemen, dan biasanya ditulis pada tag pembuka.
+3. Apa perbedaan ``<p>`` dengan ``<br>``? Jelaskan penggunaannya.
+   - ``<p>`` adalah tag yang digunakan untuk membuat paragraf, yaitu untuk menampilkan teks atau artikel sebagai satu kesatuan blok teks.
+   - ``<br>`` adalah tag pendukung yang digunakan untuk berpindah baris (membuat baris baru) di dalam sebuah paragraf atau area teks lainnya, tanpa membuat paragraf baru. Tag ``<br>`` juga merupakan elemen yang tidak memiliki pasangan penutup.
+4. Apa fungsi atribut href pada tag ``<a>``?
+   - Fungsi atribut href pada tag ``<a>`` (anchor/hyperlink) adalah sebagai penentu URL atau alamat tujuan tautan tersebut.
+5. Apa perbedaan hyperlink ke halaman internal dengan hyperlink ke website eksternal?
+   - Hyperlink internal: Menghubungkan satu halaman web dengan halaman web lain yang masih berada di dalam situs web yang sama.
+   - Hyperlink eksternal: Menghubungkan halaman web ke situs web lain di luar domain saat ini.
+6. Apa fungsi atribut src dan alt pada tag ``<img>``?
+   - src: Berfungsi untuk menentukan URL atau path (lokasi) file gambar yang akan ditampilkan.
+   - alt: Berfungsi untuk memberikan deskripsi tentang gambar tersebut (teks alternatif yang muncul jika gambar gagal dimuat, dan penting untuk aksesibilitas).
+7. Apa perbedaan penggunaan ``<ul>`` dan ``<ol>``?
+   - ``<ul>`` (Unordered List): Digunakan untuk membuat daftar tanpa nomor (biasanya menggunakan simbol bullet).
+   - ``<ol>`` (Ordered List): Digunakan untuk membuat daftar yang berurutan, biasanya menggunakan angka atau huruf berurutan.
+8. Apa yang terjadi jika path gambar pada atribut src salah?
+   - Jika path gambar pada atribut src salah, maka browser tidak dapat menemukan gambar tersebut dan gambar tidak akan ditampilkan.
+9. Mengapa struktur heading h1 sampai h6 perlu digunakan secara terstruktur?
+   - Penggunaan terstruktur (berurutan dari level tertinggi ke terendah) penting untuk menunjukkan hierarki dan struktur dokumen, membedakan mana yang merupakan judul utama dan mana yang subjudul.
+10. Apa fungsi komentar ``<!-- ... -->`` dalam kode HTML?
+    - Komentar merupakan bagian kode yang diabaikan oleh browser dan tidak ditampilkan pada halaman web. Fungsinya adalah untuk memberikan informasi tambahan atau penanda pada bagian kode bagi pengembang, atau untuk menonaktifkan kode sementara.
+
