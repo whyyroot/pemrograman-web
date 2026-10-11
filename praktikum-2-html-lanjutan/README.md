@@ -317,40 +317,16 @@ Kita buat folder images untuk menyimpan gambarnya.
 <body>
     <h1>Form Registrasi Mahasiswa</h1>
     <form>
-        <label for="nama">Nama Lengkap</label><br>
-        <input type="text" id="nama" name="nama"><br><br>
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="password">Password</label><br>
-        <input type="password" id="password" name="password"><br><br>
-        <label for="tanggal">Tanggal Lahir</label><br>
-        <input type="date" id="tanggal" name="tanggal"><br><br>
-
-        <h2>Jenis Kelamin</h2>
-        <input type="radio" id="laki" name="jk" value="L">
-        <label for="laki">Laki-laki</label>
-        <input type="radio" id="perempuan" name="jk" value="P">
-        <label for="perempuan">Perempuan</label>
-        <h2>Keahlian</h2>
-        <input type="checkbox" id="html" name="skill" value="HTML">
-        <label for="html">HTML</label>
-        <input type="checkbox" id="css" name="skill" value="CSS">
-        <label for="css">CSS</label>
-        <input type="checkbox" id="js" name="skill" value="JavaScript">
-        <label for="js">JavaScript</label>
-
-        <label for="prodi">Program Studi</label>
-        <select id="prodi" name="prodi">
-            <option value="">-- Pilih Prodi --</option>
-            <option value="ti">Teknik Informatika</option>
-            <option value="si">Sistem Informasi</option>
-        </select>
-        <br><br>
-        <label for="alamat">Alamat</label><br>
-        <textarea id="alamat" name="alamat" rows="5" cols="40"></textarea>
-        <button type="submit">Daftar</button>
-        <button type="reset">Reset</button>
-    </form>     
+        <form>
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" required minlength="3">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="umur">Umur</label>
+            <input type="number" id="umur" name="umur" min="17" max="60" required>
+            <button type="submit">Kirim</button>
+        </form>
+    </form>
 </body>
 
 </html>
