@@ -230,8 +230,7 @@ kita lanjutkan di dalam ``<form> ... </form>``
 
 
 <h3>Select dan Textarea</h3>
-Kita buat folder images untuk menyimpan gambarnya.
-<img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-4.png" width="250" height="150">
+
 <table boder="0">
   <tr>
     <td valign="top"><h3>Code</h3>
@@ -346,8 +345,9 @@ Kita buat folder images untuk menyimpan gambarnya.
 
 
 
-<h3>Menambahkan List</h3>
-kita tambahkan daftar keahlian dan daftar langkah belajar menggunakan unordered list dan ordered list.
+<h3>Menambahkan Multimedia</h3>
+Kita buat folder images untuk menyimpan gambarnya.
+<img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-4.png" width="250" height="150">
 <table boder="0">
   <tr>
     <td valign="top"><h3>Code</h3>
@@ -357,60 +357,33 @@ kita tambahkan daftar keahlian dan daftar langkah belajar menggunakan unordered 
 <html>
 
 <head>
-    <title>Praktikum HTML Dasar</title>
+    <title>HTML Lanjutan</title>
 </head>
 
 <body>
-    <!-- judul utama -->
-    <h1>Belajar Dasar HTML</h1>
-    <!-- subjudul -->
-    <h2>Paragraf pada HTML</h2>
-    <p>
-        Kami sedang belajar <b>HTML dasar</b> pada mata
- kuliah Pemrograman Web. Praktikum ini digunakan untuk
-mengenal tag-tag dasar HTML.
-    </p>
-    <p>
-        HTML digunakan untuk menyusun <strong>struktur
-        dan konten</strong> halaman web. Browser akan
-        menampilkan hasil interpretasi dari dokumen HTML.
-    </p>
-    <p>
-        Latihan pemformatan lainnya: Kita bisa membuat
-        teks <em>ditekankan</em>, atau memberikan
-        <mark>penanda kuning</mark> pada kata penting.
-        Terkadang kita butuh teks yang ukurannya
-        <small>lebih kecil</small>. Kita juga bisa
-        menandai teks yang <del>dicoret atau salah</del>
-        dan menggantinya dengan teks yang baru
-        <ins>disisipkan</ins>.
-    </p>
-    <h3>Menambahkan Gambar</h3>
-    <img src="images/profil.jpg" width="200"
-    alt="Foto profil mahasiswa" title="Foto Profil Mahasiswa">
+    <h1>Form Registrasi Mahasiswa</h1>
+    <form>
+        <form>
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" required minlength="3">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="umur">Umur</label>
+            <input type="number" id="umur" name="umur" min="17" max="60" required>
+            <button type="submit">Kirim</button>
+        </form>
+    </form>
 
-    <h2>Keahlian</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    <h2>Urutan Belajar</h2>
-    <ol>
-        <li>Mempelajari struktur HTML</li>
-        <li>Mempelajari tag dan atribut</li>
-        <li>Membuat halaman HTML</li>
-        <li>Menguji halaman pada browser</li>
-    </ol>
-
-    <!-- navigasi halaman -->
-    <nav>
-        <a href="index.html">Dasar HTML</a>
-        <a href="halaman2.html">Halaman 2</a>
-        <a href="https://www.google.com">Website Eksternal</a>
-    </nav>
-    <hr>
-
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="media/audio.mp3" type="audio/mpeg">
+        Browser tidak mendukung audio.
+    </audio>
+    <h2>Video</h2>
+    <video controls width="480">
+        <source src="media/video.mp4" type="video/mp4">
+        Browser tidak mendukung video.
+    </video>
 </body>
 
 </html>
@@ -423,35 +396,140 @@ mengenal tag-tag dasar HTML.
 </table>
 
 
-1. `` <ul> ... </ul>`` tag ``<ul>`` (Unordered List) digunakan untuk membuat daftar tanpa nomor.
-2. `` <ol> ... </ol> `` tag ``<ol>`` (Ordered List) digunakan untuk membuat daftar berurutan.
-3. `` <li> ... </li> `` tag ``<li>`` (List Item) berfungsi untuk mendefinisikan setiap poin atau baris item tunggal yang ada di dalam sebuah daftar.
+<h3>Mini Project</h3>
+Kita buat folder images untuk menyimpan gambarnya.
+<img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-4.png" width="250" height="150">
+<table boder="0">
+  <tr>
+    <td valign="top"><h3>Code</h3>
+      
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Biodata Mahasiswa</title>
+</head>
+
+<body>
+    <header>
+        <h1>Biodata Mahasiswa</h1>
+    </header>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="#biodata">Biodata</a>
+        <a href="#form">Form</a>
+    </nav>
+    <main>
+        <section id="biodata">
+            <h2>Data Mahasiswa</h2>
+            <table border="1">
+                <tr>
+                    <th>Data</th>
+                    <th>Keterangan</th>
+                </tr>
+                <tr>
+                    <td>NIM</td>
+                    <td>312510359</td>
+                </tr>
+                <tr>
+                    <td>Nama</td>
+                    <td>Irvan Wahyudin</td>
+                </tr>
+                <tr>
+                    <td>Program Studi</td>
+                    <td>Teknik Informatika</td>
+                </tr>
+            </table>
+        </section>
+        <section id="form">
+            <h2>Form Biodata</h2>
+            <form>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" required>
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="prodi">Program Studi</label>
+                <select id="prodi" name="prodi" required>
+                    <option value="">-- Pilih --</option>
+                    <option value="ti">Teknik Informatika</option>
+                    <option value="si">Sistem Informasi</option>
+                </select>
+                <br><br>
+                <label for="alamat">Alamat</label><br>
+                <textarea id="alamat" name="alamat" required></textarea>
+                <br><br>
+                <button type="submit">Simpan</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="media/audio.mp3" type="audio/mpeg">
+            Browser tidak mendukung audio.
+        </audio>
+        <h2>Video</h2>
+        <video controls width="480">
+            <source src="media/video.mp4" type="video/mp4">
+            Browser tidak mendukung video.
+        </video>
+    </main>
+    <footer>
+        <p>&copy; 2026 Teknik Informatika</p>
+    </footer>
+</body>
+
+</html>
+```
+ </td>
+    <td valign="top"><h3>Tampilan</h3>
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-8.png" width="450" height="450">
+  </td>
+  </tr>
+</table>
+
+1. ``<audio> dan <video>`` Tag utama yang bertindak sebagai wadah pemutar suara dan gambar bergerak.
+2. ``controls`` Atribut yang memunculkan antarmuka pemutar media, seperti tombol putar (play), jeda (pause), pengatur volume, dan garis waktu (timeline).
+3. ``<source>`` Mendefinisikan lokasi file media melalui atribut src (misalnya di dalam folder media/) dan jenis file melalui atribut type (seperti audio/mpeg atau video/mp4) agar dapat dibaca dengan benar oleh browser.
+4. ``width="480"`` Mengatur lebar spesifik untuk pemutar video sebesar 480 piksel di layar.
 
 # Jawab Pertanyaan Berikut
-1. Apa fungsi deklarasi ``<!DOCTYPE html>`` pada dokumen HTML?
-   - Fungsi deklarasi ``<!DOCTYPE html>`` adalah untuk menyatakan bahwa dokumen tersebut menggunakan standar HTML5. Deklarasi ini ditulis pada bagian paling awal dokumen HTML dan digunakan untuk validasi elemen halaman web.
-2. Apa perbedaan antara tag, elemen, dan atribut pada HTML?
-   - Tag: Penanda awalan dan akhiran dari sebuah elemen HTML, dibuat dengan kurung siku ``(<...>)`` dan biasanya berpasangan (ada pembuka dan penutup, meskipun ada pengecualian).
-   - Elemen: Komponen yang menyusun dokumen HTML, secara sederhana dipahami sebagai kombinasi dari tag pembuka, isi, tag penutup, dan atribut jika diperlukan.
-   - Atribut: Memberikan informasi tambahan kepada sebuah elemen, dan biasanya ditulis pada tag pembuka.
-3. Apa perbedaan ``<p>`` dengan ``<br>``? Jelaskan penggunaannya.
-   - ``<p>`` adalah tag yang digunakan untuk membuat paragraf, yaitu untuk menampilkan teks atau artikel sebagai satu kesatuan blok teks.
-   - ``<br>`` adalah tag pendukung yang digunakan untuk berpindah baris (membuat baris baru) di dalam sebuah paragraf atau area teks lainnya, tanpa membuat paragraf baru. Tag ``<br>`` juga merupakan elemen yang tidak memiliki pasangan penutup.
-4. Apa fungsi atribut href pada tag ``<a>``?
-   - Fungsi atribut href pada tag ``<a>`` (anchor/hyperlink) adalah sebagai penentu URL atau alamat tujuan tautan tersebut.
-5. Apa perbedaan hyperlink ke halaman internal dengan hyperlink ke website eksternal?
-   - Hyperlink internal: Menghubungkan satu halaman web dengan halaman web lain yang masih berada di dalam situs web yang sama.
-   - Hyperlink eksternal: Menghubungkan halaman web ke situs web lain di luar domain saat ini.
-6. Apa fungsi atribut src dan alt pada tag ``<img>``?
-   - src: Berfungsi untuk menentukan URL atau path (lokasi) file gambar yang akan ditampilkan.
-   - alt: Berfungsi untuk memberikan deskripsi tentang gambar tersebut (teks alternatif yang muncul jika gambar gagal dimuat, dan penting untuk aksesibilitas).
-7. Apa perbedaan penggunaan ``<ul>`` dan ``<ol>``?
-   - ``<ul>`` (Unordered List): Digunakan untuk membuat daftar tanpa nomor (biasanya menggunakan simbol bullet).
-   - ``<ol>`` (Ordered List): Digunakan untuk membuat daftar yang berurutan, biasanya menggunakan angka atau huruf berurutan.
-8. Apa yang terjadi jika path gambar pada atribut src salah?
-   - Jika path gambar pada atribut src salah, maka browser tidak dapat menemukan gambar tersebut dan gambar tidak akan ditampilkan.
-9. Mengapa struktur heading h1 sampai h6 perlu digunakan secara terstruktur?
-   - Penggunaan terstruktur (berurutan dari level tertinggi ke terendah) penting untuk menunjukkan hierarki dan struktur dokumen, membedakan mana yang merupakan judul utama dan mana yang subjudul.
-10. Apa fungsi komentar ``<!-- ... -->`` dalam kode HTML?
-    - Komentar merupakan bagian kode yang diabaikan oleh browser dan tidak ditampilkan pada halaman web. Fungsinya adalah untuk memberikan informasi tambahan atau penanda pada bagian kode bagi pengembang, atau untuk menonaktifkan kode sementara.
+1. Apa fungsi ``<table>, <tr>, <th>, dan <td>``?
+  - ``<table>``: Elemen atau wadah utama untuk membuat struktur tabel.
+  - ``<tr>`` (Table Row): Membuat sebuah baris mendatar di dalam tabel.
+  - ``<th>`` (Table Header): Membuat sel khusus untuk judul kolom atau judul baris.
+  - `` <td> ``(Table Data): Membuat sel standar yang berisi data atau informasi dalam tabel.
 
+2. Apa perbedaan ``<th>`` dan ``<td>``?
+  - Tag ``<th>`` digunakan untuk mendefinisikan sel header atau judul, sehingga teks di dalamnya secara otomatis akan ditampilkan bercetak tebal (bold) dan posisinya berada di tengah sel (center).
+
+3. Apa fungsi colspan pada tabel?
+  - Atribut colspan berfungsi untuk menggabungkan dua kolom atau lebih menjadi satu sel tunggal yang membentang lebar ke samping di dalam baris yang sama.
+
+4. Apa fungsi ``<form>`` dalam HTML?
+  - Tag ``<form>`` berfungsi sebagai wadah utama yang mengelompokkan elemen-elemen input (seperti kolom teks, pilihan, dan tombol) untuk menerima masukan data dari pengguna dan mengirimkan data tersebut ke server web untuk diproses.
+
+5. Apa perbedaan radio button dan checkbox?
+  - Radio button (``<input type="radio">``): Digunakan ketika pengguna hanya boleh memilih satu opsi dari serangkaian pilihan yang ada dalam satu kelompok (pilihan tunggal).
+  - Checkbox (``<input type="checkbox">``): Digunakan ketika pengguna diizinkan untuk memilih banyak opsi sekaligus, satu opsi, atau bahkan tidak memilih sama sekali (pilihan ganda).
+
+6. Mengapa ``<label>`` sebaiknya terhubung dengan id input melalui atribut for?
+  - Menghubungkan ``<label>`` dengan id menggunakan atribut for akan meningkatkan aksesibilitas (terutama untuk pembaca layar) dan mempermudah interaksi pengguna. Ketika teks label tersebut diklik, browser akan secara otomatis menempatkan kursor atau menyeleksi kolom input yang menjadi pasangannya.
+
+7. Apa perbedaan ``<textarea>`` dengan ``<input type="text">``?
+  - Tag ``<textarea>`` digunakan untuk menampung masukan teks yang panjang dan mendukung format banyak baris (multi-line), seperti alamat atau kolom komentar. Tag ``<input type="text">`` hanya digunakan untuk menampung masukan teks pendek dalam satu baris tunggal (single-line), seperti nama atau asal kota.
+
+8. Apa fungsi semantic HTML seperti ``<header>, <nav>, <main>, <section>, <article>, <aside>, dan <footer>``?
+  - Elemen semantik berfungsi untuk mendeskripsikan makna dan struktur logika dari sebuah bagian halaman web secara jelas kepada browser, mesin pencari (SEO), dan teknologi aksesibilitas (screen reader). Elemen ini memberitahu sistem bagian mana yang merupakan kepala halaman, navigasi utama, konten utama, artikel mandiri, bilah sisi, atau kaki halaman.
+
+9. Apa fungsi required, min, max, dan minlength?
+Keempatnya merupakan atribut validasi formulir (form validation):
+  - required: Mencegah formulir dikirim jika kolom tersebut masih kosong (wajib diisi).
+  - min: Menetapkan batas nilai angka paling kecil yang diizinkan untuk diinput (untuk tipe angka).
+  - max: Menetapkan batas nilai angka paling besar yang diizinkan untuk diinput (untuk tipe angka).
+  - minlength: Menetapkan batas jumlah karakter (huruf/angka) paling sedikit yang harus diketikkan oleh pengguna.
+
+11. Apa perbedaan elemen ``<audio>`` dan ``<video>``?
+  - Tag ``<audio>`` dikhususkan untuk menyematkan dan memutar file media berupa suara atau musik yang murni tidak memiliki komponen visual. Tag ``<video>`` dikhususkan untuk menyematkan file media berupa gambar bergerak (film) yang membutuhkan dimensi panjang dan lebar di layar untuk menampilkan visual, biasanya sekaligus disertai dengan suara.
