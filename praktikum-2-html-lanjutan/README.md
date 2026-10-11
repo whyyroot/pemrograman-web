@@ -1,4 +1,4 @@
-# PRAKTIKUM 1 HTML DASAR
+# PRAKTIKUM 2 HTML Lanjutan
 <br>
 Nama : Irvan Wahyudin <br>
 Nim : 312510359
@@ -6,7 +6,7 @@ Nim : 312510359
 
 
 dan berikut adalah [jawaban soal-soal](#Jawab-Pertanyaan-Berikut) dari modul.<br>
-Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum-1-html-dasar/index.html"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a>  
+Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum-2-html-lanjutan/index.html"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a>  
 <h3>Membuat Tabel Mahasiswa</h3>
 <table boder="0">
   <tr>
@@ -46,7 +46,7 @@ Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum
 ```
    </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-1.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_1.jpg" width="450" height="450">
     </td>
   </tr>
 </table>
@@ -104,7 +104,7 @@ Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum
 ```
   </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-2.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_2.jpg" width="450" height="450">
   </td>
   </tr>
 </table>
@@ -151,7 +151,7 @@ Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum
 ```
   </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-3.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_3.jpg" width="450" height="450">
   </td>
   </tr>
 </table>
@@ -218,7 +218,7 @@ kita lanjutkan di dalam ``<form> ... </form>``
 ```
   </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-5.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_4.jpg" width="450" height="450">
   </td>
   </tr>
 </table>
@@ -286,7 +286,7 @@ kita lanjutkan di dalam ``<form> ... </form>``
 ```
  </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-6.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_5.jpg" width="450" height="450">
   </td>
   </tr>
 </table>
@@ -332,9 +332,7 @@ kita lanjutkan di dalam ``<form> ... </form>``
 ```
  </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-7.png" width="450" height="450">
-      halaman ke 2 saya :
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-9.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_6.jpg" width="450" height="450">
   </td>
   </tr>
 </table>
@@ -346,8 +344,8 @@ kita lanjutkan di dalam ``<form> ... </form>``
 
 
 <h3>Menambahkan Multimedia</h3>
-Kita buat folder images untuk menyimpan gambarnya.
-<img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-4.png" width="250" height="150">
+Kita buat folder media untuk menyimpan filenya.
+<img src="https://github.com/whyyroot/pemrograman-web/blob/main/img//praktikum-2-html-lanjutan/fd.jpg" width="250" height="150">
 <table boder="0">
   <tr>
     <td valign="top"><h3>Code</h3>
@@ -390,15 +388,13 @@ Kita buat folder images untuk menyimpan gambarnya.
 ```
  </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-8.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_7.jpg" width="450" height="450">
   </td>
   </tr>
 </table>
 
 
 <h3>Mini Project</h3>
-Kita buat folder images untuk menyimpan gambarnya.
-<img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-4.png" width="250" height="150">
 <table boder="0">
   <tr>
     <td valign="top"><h3>Code</h3>
@@ -485,7 +481,7 @@ Kita buat folder images untuk menyimpan gambarnya.
 ```
  </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-1-html-dasar/praktikum-1-8.png" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_8.jpg" width="450" height="450">
   </td>
   </tr>
 </table>
