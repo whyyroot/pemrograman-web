@@ -119,10 +119,13 @@ Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum
 
 
 <h3>Membuat Form Registrasi Mahasiswa</h3>
-<table boder="0">
+<div style="overflow-x: auto; max-width: 100%;">
+<table border="0">
   <tr>
-    <td valign="top"><h3>Code</h3>
-
+    <td width="30" valign="top"><h3>Code</h3>
+<details>
+<summary><b>📂 Klik untuk melihat Source Code HTML</b></summary>
+  
   ```
 <!DOCTYPE html>
 <html>
@@ -149,6 +152,7 @@ Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum
 
 </html>
 ```
+</details>
   </td>
     <td valign="top"><h3>Tampilan</h3>
       <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_3.jpg" width="450" height="450">
