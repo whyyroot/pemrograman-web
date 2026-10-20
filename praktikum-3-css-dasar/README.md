@@ -6,8 +6,8 @@ Nim : 312510359
 
 
 dan berikut adalah [jawaban soal-soal](#Jawab-Pertanyaan-Berikut) dari modul.<br>
-Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum-2-html-lanjutan/index.html"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a>  
-<h3>Membuat Tabel Mahasiswa</h3>
+Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum-3-css-dasar/lab2_css_dasar.html"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a>  
+<h3>Membuat Struktur HTML</h3>
 <table boder="0">
   <tr>
     <td valign="top"><h3>Code</h3>
@@ -44,7 +44,7 @@ Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum
 </details>
    </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_1.jpg" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-3-css-dasar/Screenshot_1.jpg" width="450" height="450">
     </td>
   </tr>
 </table>
@@ -56,7 +56,7 @@ Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum
 4. ``class="button btn-primary"``: Atribut class pada tag <a> berfungsi untuk memberikan nama kelompok gaya. Berbeda dengan id yang unik, class bisa digunakan berulang kali.
 
 
-<h3>Tabel dengan thead, tbody, dan tfoot</h3>
+<h3>Menambahkan CSS Internal</h3>
 <table boder="0">
   <tr>
     <td valign="top"><h3>Code</h3>
@@ -118,9 +118,9 @@ Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum
 </details>
   </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_2.jpg" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-3-css-dasar/Screenshot_3.jpg" width="450" height="450">
   </td>
-  </tr>;
+  </tr>
 </table>
 
 1. `` body { ... } ``: Memberikan gaya untuk seluruh isi halaman web.
@@ -138,7 +138,7 @@ Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum
 
 
 
-<h3>Membuat Form Registrasi Mahasiswa</h3>
+<h3>Menambahkan External CSS</h3>
 
 <table border="0">
   <tr>
@@ -173,7 +173,7 @@ Selipkan code ini di antara ``<head>`` ... ``</head>``
 </details>
   </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_3.jpg" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-3-css-dasar/Screenshot_4.jpg" width="450" height="450">
   </td>
   </tr>
 </table>
@@ -193,9 +193,8 @@ Selipkan code ini di antara ``<head>`` ... ``</head>``
    - Atribut ``href="style_eksternal.css"`` berfungsi untuk mengimpor atau menghubungkan halaman HTML tersebut dengan sebuah file CSS terpisah yang bernama ``style_eksternal.css``.
       
 
-<h3>Radio Button dan Checkboxt</h3>
+<h3>Menambahkan CSS Selector</h3>
 
-kita lanjutkan di dalam ``<form> ... </form>``
 <table boder="0">
   <tr>
     <td valign="top"><h3>Code</h3>
@@ -247,7 +246,7 @@ nav a:hover{
 </details>
   </td>
     <td valign="top"><h3>Tampilan</h3>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_4.jpg" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-3-css-dasar/Screenshot_5.jpg" width="450" height="450">
   </td>
   </tr>
 </table>
@@ -269,7 +268,7 @@ dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul
   - menambahkan ``box-shadow: 2px 2px 5px black;`` pada ``#intro`` untuk memberikan efek bayangan pada kotak.
     <details>
     <summary><b>📂 Hasil experimen</b></summary>
-    <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_4.jpg" width="450" height="450">
+    <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-3-css-dasar/Screenshot_6.jpg" width="450" height="450">
     </details>
 
 2. Apa perbedaan pendeklarasian CSS elemen ``h1 {...}`` dengan ``#intro h1 {...}``? berikan penjelasannya!
@@ -304,7 +303,7 @@ Berikan penjelasan dan contohnya!
     </details>
     <details>
       <summary><b>📂 Hasilnya</b></summary>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_4.jpg" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-3-css-dasar/Screenshot_7.jpg" width="450" height="450">
     </details>
 5. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector
 tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada
@@ -332,5 +331,5 @@ browser? Berikan penjelasan dan contohnya! ( ``<p id="paragraf-1" class="textpar
     </details>
     <details>
       <summary><b>📂 Hasilnya</b></summary>
-      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-2-html-lanjutan/Screenshot_4.jpg" width="450" height="450">
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-3-css-dasar/Screenshot_8.jpg" width="450" height="450">
     </details>
