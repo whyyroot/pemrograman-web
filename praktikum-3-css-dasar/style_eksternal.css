@@ -1,0 +1,45 @@
+nav {
+    background: #20A759;
+    color: #fff;
+    padding: 10px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav .active,
+nav a:hover{
+    background: #0B6B3A;
+}
+
+body {
+    background: #a8dcf4;
+}
+/* id selector */
+#intro {
+    background: #418fb1;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+#intro h1{
+    text-align: left;
+    border: 0;
+    color: #fff;
+}
+
+/* class selector */
+.button{
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.btn-primary{
+    background: #E42A42;
+}
