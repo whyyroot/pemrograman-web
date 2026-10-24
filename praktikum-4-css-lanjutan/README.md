@@ -17,27 +17,19 @@ Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum
 ```      
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CSS dasar</title>
-       
-    </head>
-    <body>
-        <header>
-            <h1>CSS Internal dan <i>Inline CSS</i></h1>
-        </header>
-        <nav>
-            <a href="lab2_css_dasar.html">CSS DASAR</a>
-            <a href="lab2_css_external.html">CSS EXSTERNAL</a>
-            <a href="lab1_tag_dasar.html">HTML DASAR</a>
-        </nav>
-        <div id="intro">
-            <h1>Hello World</h1>
-            <p> Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman</b> di <i>Universitas Pelita bangsa</i>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.</p>
-            <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
-        </div>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Alam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+    </div>
+</body>
+
 </html>
 ```
 
@@ -64,56 +56,81 @@ Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum
 <summary><b>📂 Klik untuk melihat Source Code HTML</b></summary>
       
   ```
-<!DOCTYPE html>
-<html lang="en">
+<header>
+            <h1>WISATA ALAM</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="hero"></section>
+        <section id="wrapper">
+            <section id="main"></section>
+            <aside id="sidebar"></aside>
+        </section>
+        <footer>
+            <p>&copy; 2021 - Wisata Alam Indonesia</p>
+        </footer>
+```
+</details>
+<details>
+<summary><b>📂 Klik untuk melihat Source Code CSS</b></summary>
+  
+```
+/* import google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS dasar</title>
-    <title>CSS Dasar</title>
-    <style>
-        body {
-            font-family: 'Open Sans', sans-serif;
-        }
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
 
-        header {
-            min-height: 80px;
-            border-bottom: 1px solid #77CCEF;
-        }
+body {
+    line-height: 1;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #5a5a5a;
+}
 
-        h1 {
-            font-size: 24px;
-            color: #0F189F;
-            text-align: center;
-            padding: 20px 10px;
-        }
+#container {
+    width: 980px;
+    margin: 0 auto;
+    box-shadow: 0 0 1em #cccccc;
+}
 
-        h1 i {
-            color: #6d6a6b;
-        }
-    </style>
-</head>
+/* header */
+header {
+    padding: 20px;
+}
 
-<body>
-    <header>
-        <h1>CSS Internal dan <i>Inline CSS</i></h1>
-    </header>
-    <nav>
-        <a href="lab2_css_dasar.html">CSS DASAR</a>
-        <a href="lab2_css_external.html">CSS EXSTERNAL</a>
-        <a href="lab1_tag_dasar.html">HTML DASAR</a>
-    </nav>
-    <div id="intro">
-        <h1>Hello World</h1>
-        <p style="text-align: center; color: #ccd8e4;"> Kami sedang belajar HTML dan CSS dasar, pada mata kuliah
-            <b>Pemrograman</b> di <i>Universitas Pelita bangsa</i>. Pelajaran pertama yang kami dapat adalah membuat
-            tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.</p>
-        <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
-    </div>
-</body>
+header h1 {
+    margin: 20px 10px;
+    color: #b5b5b5;
+}
 
-</html>
+/* navigasi */
+nav {
+    display: block;
+    background-color: #1f5faa;
+}
+
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+    background-color: #2b83ea;
+}
 ```
 </details>
   </td>
@@ -144,31 +161,37 @@ Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum
   <tr>
     <td valign="top"><h3>Code</h3>
 <details>
-<summary><b>📂 Klik untuk melihat Source Code CSS</b></summary>
+<summary><b>📂 Klik untuk melihat Source Code HTML</b></summary>
   
+Tambahkan di antara ``<section id="hero"> ... </section>``
+      
   ```
-nav {
-    background: #20A759;
-    color: #fff;
-    padding: 10px;
-}
-nav a{
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-nav .active,
-nav a:hover{
-    background: #0B6B3A;
-}
+  <h1>Selamat Datang Di Wisata Alam</h1>
+  <p>Temukan keindahan alam nusantara yang tak terjamah, dari pantai tropis yang mempesona hingga pegunungan
+    megah yang menantang. Mulai petualangan Anda dan pelajari kekayaan budaya serta keanekaragaman hayati
+    Indonesia bersama kami.</p>
+  <a href="home.html" class="btn btn-large">Learn more &raquo;</a>
 ```
 </details>
 <details>
-<summary><b>📂 Klik untuk melihat Source Code Link CSS External to HTML</b></summary>
-
-Selipkan code ini di antara ``<head>`` ... ``</head>``  
-  ```
-<link rel="stylesheet" href="style_eksternal.css" type="text/css">
+<summary><b>📂 Klik untuk melihat Source Code CSS</b></summary>
+  
+```
+/* Hero Panel */
+#hero {
+  background-color: #e4e4e5;
+  padding: 50px 20px;
+  margin-bottom: 20px;
+}
+#hero h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+#hero p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 25px;
+}
 ```
 </details>
   </td>
@@ -199,48 +222,85 @@ Selipkan code ini di antara ``<head>`` ... ``</head>``
   <tr>
     <td valign="top"><h3>Code</h3>
 <details>
+<summary><b>📂 Klik untuk melihat Source Code HTML</b></summary>
+  
+Tambahkan di antara ``<section id="hero"> ... </section>``
+      
+  ```
+<div class="widget-box">
+  <h3 class="title">Artikel Populer</h3>
+   <ul>
+     <li><a href="#">Top 10 Pantai Tersembunyi di Indonesia</a></li>
+     <li><a href="#">Menjelajahi Taman Nasional Komodo</a></li>
+     <li><a href="#">Tips Berwisata Ramah Lingkungan</a></li>
+     <li><a href="#">Kuliner Khas Jawa yang Wajib Dicoba</a></li>
+     <li><a href="#">Transportasi Antar Pulau di Indonesia</a></li>
+   </ul>
+</div>
+<div class="widget-box">
+  <h3 class="title">Berita Terkini</h3>
+  <p>Pemerintah Indonesia meluncurkan program Visa Digital Nomad untuk mendukung pekerja jarak jauh
+     nternasional yang ingin bekerja sambil menikmati keindahan alam Indonesia. Informasi lebih
+     lanjut tersedia di portal imigrasi.</p>
+</div>
+```
+</details>
+<details>
 <summary><b>📂 Klik untuk melihat Source Code CSS</b></summary>
   
 ```
-nav {
-    background: #20A759;
-    color: #fff;
-    padding: 10px;
-}
-nav a{
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-nav .active,
-nav a:hover{
-    background: #0B6B3A;
+/* main content */
+#wrapper {
+    margin: 0;
 }
 
-/* id selector */
-#intro {
-    background: #418fb1;
-    border: 1px solid #099249;
-    min-height: 100px;
-    padding: 10px;
+#main {
+    float: left;
+    width: 640px;
+    padding: 20px;
 }
-#intro h1{
-    text-align: left;
-    border: 0;
+
+/* sidebar area */
+#sidebar {
+    float: left;
+    width: 260px;
+    padding: 20px;
+}
+
+/* widget */
+.widget-box {
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.widget-box .title {
+    padding: 10px 16px;
+    background-color: #428bca;
     color: #fff;
 }
 
-/* class selector */
-.button{
-    padding: 15px 20px;
-    background: #bebcbd;
-    color: #fff;
-    display: inline-block;
-    margin: 10px;
+.widget-box ul {
+    list-style-type: none;
+}
+
+.widget-box li {
+    border-bottom: 1px solid #eee;
+}
+
+.widget-box li a {
+    padding: 10px 16px;
+    color: #333;
+    display: block;
     text-decoration: none;
 }
-.btn-primary{
-    background: #E42A42;
+
+.widget-box li:hover a {
+    background-color: #eee;
+}
+
+.widget-box p {
+    padding: 15px;
+    line-height: 25px;
 }
 ```
 </details>
@@ -251,6 +311,212 @@ nav a:hover{
   </tr>
 </table>
 
+<h3>Menambahkan CSS Selector</h3>
+
+<table boder="0">
+  <tr>
+    <td valign="top"><h3>Code</h3>
+<details>
+<summary><b>📂 Klik untuk melihat Source Code CSS</b></summary>
+  
+```
+/* footer */
+footer {
+    clear: both;
+    background-color: #1d1d1d;
+    padding: 20px;
+    color: #eee;
+}
+```
+</details>
+  </td>
+    <td valign="top"><h3>Tampilan</h3>
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-3-css-dasar/Screenshot_5.jpg" width="450" height="450">
+  </td>
+  </tr>
+</table>
+
+<h3>Menambahkan CSS Selector</h3>
+
+<table boder="0">
+  <tr>
+    <td valign="top"><h3>Code</h3>
+<details>
+<summary><b>📂 Klik untuk melihat Source Code HTML</b></summary>
+  
+Tambahkan di antara ``<section id="main"> ... </section>``
+      
+  ```
+<div class="row">
+  <div class="box">
+    <img src="img/raja_ampat.jpeg" alt="raja ampat" class="image-circle">
+    <h3>Surga Bawah Laut</h3>
+    <p>Jelajahi terumbu karang warna-warni dan kehidupan laut eksklusif di perairan Raja Ampat dan
+      Labuan Bajo. Terumbu karang paling beragam di dunia menanti Anda.</p>
+    <a href="#" class="btn btn-default">View detail</a>
+  </div>
+  <div class="box">
+    <img src="img/bromo.jpeg" alt="gunung bromo" class="image-circle">
+    <h3>Petualangan Gunung Berapi</h3>
+    <p>Taklukkan puncak-puncak dramatis seperti Bromo dan Rinjani. Nikmati pemandangan matahari
+      terbit yang menakjubkan dan kawah yang mengagumkan.</p>
+    <a href="#" class="btn btn-default">View detail</a>
+  </div>
+  <div class="box">
+    <img src="img/candi-borobudur.jpg" alt="candi borobudur" class="image-circle">
+    <h3>Warisan Budaya</h3>
+    <p>Rasakan kekayaan sejarah dan spiritualitas di Candi Borobudur dan situs warisan UNESCO
+      lainnya. Pelajari tradisi lokal yang hidup.
+      euismod.</p>
+    <a href="#" class="btn btn-default">View detail</a>
+  </div>
+</div>
+```
+</details>
+<details>
+<summary><b>📂 Klik untuk melihat Source Code CSS</b></summary>
+  
+```
+/* box */
+.box {
+    display: block;
+    float: left;
+    width: 33.333333%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.box h3 {
+    margin: 15px 0;
+}
+
+.box p {
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.box img {
+    width: 110px;
+    height: 110px;
+    border: 0;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.image-circle {
+    border-radius: 50%;
+}
+
+.row {
+    margin: 0 -10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.row:after,
+.row:before,
+.entry:after,
+.entry:before {
+    content: '';
+    display: table;
+}
+
+.row:after,
+.entry:after {
+    clear: both;
+}
+```
+</details>
+  </td>
+    <td valign="top"><h3>Tampilan</h3>
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-3-css-dasar/Screenshot_5.jpg" width="450" height="450">
+  </td>
+  </tr>
+</table>
+
+
+<h3>Menambahkan CSS Selector</h3>
+
+<table boder="0">
+  <tr>
+    <td valign="top"><h3>Code</h3>
+<details>
+<summary><b>📂 Klik untuk melihat Source Code HTML</b></summary>
+  
+Tambahkan di antara ``<section id="main"> ... </section>``,
+dibawahnya ``<div class="row"> ... </div>``
+      
+  ```
+<hr class="divider" />
+<article class="entry">
+  <h2>Destinasi Bulan Ini: Bali</h2>
+  <img src="img/bali.jpeg" alt="bali">
+  <p>Bali, Pulau Dewata, menawarkan lebih dari sekadar pantai. Temukan ketenangan di Ubud,
+    pelajari tarian tradisional, dan nikmati kuliner lokal. Rasakan harmoni antara manusia,
+    alam, dan budaya. Dapatkan panduan wisata lengkap dan penawaran eksklusif untuk perjalanan
+  Anda.</p>
+</article>
+<hr class="divider" />
+<article class="entry">
+  <h2>Destinasi Impian: Banda Neira</h2>
+  <img src="img/banda-neira.jpeg" alt="banda neira" class="right-img">
+  <p>Banda Neira, kepingan surga di Maluku Tengah, menawarkan perpaduan memukau antara kekayaan
+    sejarah dan pesona alam. Jelajahi benteng-benteng kolonial yang megah, nikmati keindahan taman
+    laut yang eksotis, dan saksikan kemegahan Gunung Api Banda dari kejauhan. Tempat yang pernah
+    menjadi pusat rempah-rempah dunia ini adalah destinasi wajib bagi pecinta wisata bahari dan
+    sejarah.</p>
+</article>
+```
+</details>
+<details>
+<summary><b>📂 Klik untuk melihat Source Code CSS</b></summary>
+  
+```
+.divider {
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    margin: 40px 0;
+}
+
+/* entry */
+
+.entry {
+    margin: 15px 0;
+}
+
+.entry h2 {
+    margin-bottom: 20px;
+}
+
+.entry p {
+    line-height: 25px;
+}
+
+.entry img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 5px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.entry .right-img {
+    float: right;
+}   
+```
+</details>
+  </td>
+    <td valign="top"><h3>Tampilan</h3>
+      <img src="https://github.com/whyyroot/pemrograman-web/blob/main/img/praktikum-3-css-dasar/Screenshot_5.jpg" width="450" height="450">
+  </td>
+  </tr>
+</table>
 1. ID Selector (``#intro`` dan ``#intro h1``)
    - ``#intro`` : Menargetkan elemen HTML yang memiliki atribut ``id="intro"``. Kode ini memberikan warna latar kebiruan (``#418fb1``), garis tepi (border) berwarna hijau setebal 1 piksel, tinggi minimal 100 piksel, dan jarak ke dalam (padding) 10 piksel.
    - ``#intro h1`` : Descendant selector ini hanya menargetkan tag ``<h1>`` yang berada di dalam kontainer ``#intro``. Teks judul tersebut diubah menjadi putih (``color: #fff;``) dan rata kiri (``text-align: left;``). Aturan ini akan menimpa desain ``<h1>`` sebelumnya yang diatur rata tengah.
