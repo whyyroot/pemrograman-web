@@ -833,7 +833,7 @@ dibawahnya ``<div class="row"> ... </div>``
 </html>     
 ```
 </details>
-Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum-4-css-lanjutan/projek/index.html"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a>  
+Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum-4-css-lanjutan/project/index.html"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a>  
 
 2. Tambahkan layout untuk menu Contact<br>
 => yang berisi form isian: nama, email, message, dll
@@ -906,5 +906,5 @@ Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum
 
 ```
 </details>
-Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum-4-css-lanjutan/projek/kontak.html"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a>  
+Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum-4-css-lanjutan/project/kontak.html"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a>  
     
