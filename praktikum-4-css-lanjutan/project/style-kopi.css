@@ -9,22 +9,22 @@
 }
 /* Responsif untuk Layar HP */
 @media (max-width: 600px) {
-            .task-item {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .task-info {
-                padding-right: 0;
-                margin-bottom: 16px;
-                width: 100%;
-            }
-            .task-actions {
-                width: 100%;
-                flex-direction: row; /* Berjejer ke samping di HP */
-            }
-            .btn {
-                flex: 1; /* Tombol membagi lebar sama rata */
-            }
+    .task-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .task-info {
+        padding-right: 0;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+    .task-actions {
+        width: 100%;
+        flex-direction: row; /* Berjejer ke samping di HP */
+    }
+    .btn {
+        flex: 1; /* Tombol membagi lebar sama rata */
+    }
 }
 
 body {
