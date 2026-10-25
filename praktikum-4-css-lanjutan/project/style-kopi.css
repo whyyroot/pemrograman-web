@@ -268,21 +268,27 @@ footer {
 }
 
 /* Responsif untuk Layar HP */
-@media (max-width: 600px) {
-    .task-item {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .task-info {
-        padding-right: 0;
-        margin-bottom: 16px;
+@media screen and (max-width: 768px) {
+    /* Mengubah container, main, dan sidebar menjadi penuh 100% dan menghilangkan float */
+    #container, #main, #sidebar {
         width: 100%;
+        float: none;
+        box-sizing: border-box;
     }
-    .task-actions {
+    
+    /* Mengubah 3 kolom box menjadi 1 kolom vertikal */
+    .box {
         width: 100%;
-        flex-direction: row; /* Berjejer ke samping di HP */
+        float: none;
+        margin-bottom: 20px;
     }
-    .btn {
-        flex: 1; /* Tombol membagi lebar sama rata */
+
+    /* Mereset posisi gambar pada artikel agar tidak bertabrakan dengan teks */
+    .entry img, .entry .right-img {
+        float: none;
+        display: block;
+        margin: 0 auto 15px auto;
+        width: 100%;
+        height: auto;
     }
 }
