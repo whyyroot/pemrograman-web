@@ -15,7 +15,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #5a5a5a;
 }
-
+#kopi{
+    color: #4a3b32
+}
 #container {
     width: 980px;
     margin: 0 auto;
@@ -31,11 +33,17 @@ header h1 {
     margin: 20px 10px;
     color: #b5b5b5;
 }
+#h1-kopi {
+    color: #3e2723;
+}
 
 /* navigasi */
 nav {
     display: block;
     background-color: #1f5faa;
+}
+#nav-kopi {
+    background-color: #5d4037;
 }
 
 nav a {
@@ -51,12 +59,18 @@ nav a.active,
 nav a:hover {
     background-color: #2b83ea;
 }
+#nav-kopi a:hover{
+    background-color: #8d6e63;
+}
 
 /* Hero Panel */
 #hero {
     background-color: #e4e4e5;
     padding: 50px 20px;
     margin-bottom: 20px;
+}
+#hero-kopi {
+    background-color: #f4eee8;
 }
 
 #hero h1 {
@@ -99,6 +113,9 @@ nav a:hover {
     background-color: #428bca;
     color: #fff;
 }
+.widget-box .title-kopi {
+    background-color: #6d4c41; /* Ubah dari biru (#428bca) menjadi cokelat karamel gelap */
+}
 
 .widget-box ul {
     list-style-type: none;
@@ -131,6 +148,9 @@ footer {
     padding: 20px;
     color: #eee;
 }
+#footer-kopi {
+    background-color: #2e1f18; /* Ubah dari hitam (#1d1d1d) menjadi cokelat pekat (dark roast) */
+}
 
 /* box */
 .box {
@@ -154,9 +174,12 @@ footer {
     margin-bottom: 15px;
 }
 
-box img {
+.box img {
+    width: 110px;
+    height: 110px;
     border: 0;
     vertical-align: middle;
+    object-fit: cover;
 }
 
 .image-circle {
@@ -204,9 +227,12 @@ box img {
 }
 
 .entry img {
+    width: 150px;
+    height: 150px;
     float: left;
     border-radius: 5px;
     margin-right: 15px;
+    object-fit: cover;
 }
 
 .entry .right-img {
