@@ -56,6 +56,17 @@ nav a {
     transition: 0.3s;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 28px;
+    color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+}
 nav a.active,
 nav a:hover {
     background-color: #8d6e63; /* Cokelat muda / Karamel saat disorot */
@@ -290,5 +301,31 @@ footer {
         margin: 0 auto 15px auto;
         width: 100%;
         height: auto;
+    }
+    nav {
+        text-align: right; /* Mendorong tombol hamburger ke kanan */
+        padding: 10px 20px;
+    }
+    
+    .hamburger {
+        display: inline-block; /* Memunculkan tombol garis tiga */
+    }
+
+    .menu {
+        display: none; /* Menyembunyikan menu secara default */
+        width: 100%;
+        text-align: left;
+        margin-top: 15px;
+    }
+    
+    .menu a {
+        display: block; /* Mengubah tombol menu menjadi vertikal (ke bawah) */
+        padding: 12px 15px;
+        border-top: 1px solid #8d6e63; /* Garis pemisah antar menu */
+    }
+
+    /* Memunculkan menu saat ikon hamburger (label) diklik */
+    #menu-toggle:checked ~ .menu {
+        display: block;
     }
 }
