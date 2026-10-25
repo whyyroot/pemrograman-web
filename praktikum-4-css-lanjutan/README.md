@@ -7,7 +7,7 @@ Nim : 312510359
 
 dan berikut adalah [jawaban soal-soal](#Jawab-Pertanyaan-Berikut) dari modul.<br>
 Try for html me >>><a href="https://whyyroot.github.io/pemrograman-web/praktikum-4-css-lanjutan/index.html"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a>  
-Try for tugas me >>><a href="https://https://tugas.wahyusite.web.id/praktikum-4-css-lanjutan/project/index.html"/></a> 
+Try for tugas me >>><a href="https://https://tugas.wahyusite.web.id/praktikum-4-css-lanjutan/project/index.html"/><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a> 
 <h3>Membuat Struktur HTML</h3>
 <table boder="0">
   <tr>
